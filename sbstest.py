@@ -1,5 +1,5 @@
 import pandas as pd
-import nltk
+#import nltk
 import streamlit as st
 from sklearn.model_selection import train_test_split
 from sklearn.feature_extraction.text import TfidfVectorizer
@@ -7,7 +7,7 @@ from sklearn.naive_bayes import MultinomialNB
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score, classification_report
 from sklearn.pipeline import Pipeline
-from nltk.corpus import stopwords
+#from nltk.corpus import stopwords
 
 def parse(new_article):
     # Load the datasets
